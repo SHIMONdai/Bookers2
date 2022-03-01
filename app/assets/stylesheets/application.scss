@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a.change-btn{
+  display:flex;
+}
+li{
+  padding:4px;
+}
+.icon-name{
+  font-sizing: 16px;
+  font-family: "Font Awesome 5 Free";
+  color:#f8f9fa;
+  font-weight: 900;
+  line-height: 35px;
+}
+div.field{
+  margin-bottom:10px;
+}
+.notice{
+  color:green;
+}
+#error_explanation{
+  color:red;
+}
+.error_message{
+  color:red;
+}
+p{
+  margin-bottom:1rem;
+}
